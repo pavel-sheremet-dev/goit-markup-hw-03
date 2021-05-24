@@ -1,4 +1,3 @@
-/* 6594 символов + 6010 символов + 250 строк.  */
 /* ------------------------- VARIABLES ------------------------- */
 
 :root {
@@ -24,8 +23,6 @@
 body {
   font-family: var(--main-font-family);
   color: var(--primary-text-color);
-  /* temporary background */
-  /* background-color: rgb(220, 220, 220); */
 }
 
 .link {
@@ -43,6 +40,7 @@ body {
   margin: 0 auto;
 }
 
+/* Visual monitoring */
 /* h1,
 h2,
 h3,
@@ -84,6 +82,15 @@ a {
 /* ------------------------- END GLOBAL ------------------------- */
 
 /* ------------------------- COMPONENTS ------------------------- */
+
+/* ------------------------- SECTION ------------------------- */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* ------------------------- END SECTION ------------------------- */
 
 /* ------------------------- LOGO ------------------------- */
 
@@ -138,24 +145,11 @@ a {
 
 /* ------------------------- FILTER BUTTON ------------------------- */
 
-.filter-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .filter-list-btn {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-}
-
-.filter-list-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.filter-list-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -257,7 +251,9 @@ a {
 .nav-list-link:hover,
 .nav-list-link:focus,
 .page-header-contacts-link:hover,
-.page-header-contacts-link:focus {
+.page-header-contacts-link:focus,
+.page-footer-contacts-list-link:hover,
+.page-footer-contacts-list-link:focus {
   color: var(--accent-logo-color);
 }
 
@@ -383,9 +379,7 @@ a {
 
 /* ------------------------- TEAM ------------------------- */
 
-.team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.team {
   background-color: var(--filter-btn-color);
 }
 
@@ -431,9 +425,20 @@ a {
 
 /* ------------------------- PORTFOLIO ------------------------- */
 
-.portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 64px;
+.filter-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: -8px;
+}
+
+.filter-list-item {
+  margin-top: 8px;
+}
+
+.filter-list-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .projects-list {
