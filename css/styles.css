@@ -446,7 +446,6 @@ a {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  text-align: center;
 }
 
 .projects-list-item {
@@ -458,6 +457,8 @@ a {
 .projects-card {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border-bottom: 1px solid var(--card-border-color);
   border-right: 1px solid var(--card-border-color);
   border-left: 1px solid var(--card-border-color);
