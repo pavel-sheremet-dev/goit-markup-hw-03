@@ -404,6 +404,8 @@ a {
 .team-card {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .team-list-item-name {
