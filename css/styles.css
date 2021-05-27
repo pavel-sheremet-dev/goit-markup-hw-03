@@ -205,8 +205,6 @@ a {
 /* ------------------------- HEADER ------------------------- */
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom-color: var(--hr-border-color);
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -235,8 +233,10 @@ a {
   margin-right: 50px;
 }
 
-. .nav-list-link,
+.nav-list-link,
 .page-header-contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
